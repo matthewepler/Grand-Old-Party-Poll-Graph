@@ -1,0 +1,6 @@
+class Candidate{
+  
+ String name;
+  
+  
+}
