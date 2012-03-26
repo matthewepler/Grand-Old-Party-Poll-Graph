@@ -16,6 +16,12 @@ void setup(){
     candidateHash.put(thisCandidate.name, thisCandidate);     
   } 
   
+  for(int j = 15; j >= 1; j--){
+  String[] thisWeek = split(allData[j], ",");
+  int otherNone = thisWeek[8] + thisWeek[9];
+  int offset = 100 - otherNone;
+  }
+  
 
 }
 
