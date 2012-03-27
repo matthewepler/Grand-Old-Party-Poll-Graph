@@ -24,7 +24,7 @@ void setup(){
       thisCandidate.rating[weekNum-1] = int(thisWeek[i]);
       println(thisCandidate.name + ": " + "week " + weekNum + "= " + thisCandidate.rating[weekNum-1]);   
     }
-    color c = color(255/i*0.25, 255/i, 255/i*2);
+    color c = color(255/i*0.05, 255/i, 255/i*2);
     thisCandidate.render(c);
   } 
   
