@@ -8,7 +8,7 @@ void setup(){
   size(800,400);
 //  background(0);
   smooth();
-//  colorMode(HSB);
+  colorMode(HSB);
   
   allData = loadStrings("polls.csv");
   
@@ -24,7 +24,7 @@ void setup(){
       thisCandidate.rating[weekNum-1] = int(thisWeek[i]);
       println(thisCandidate.name + ": " + "week " + weekNum + "= " + thisCandidate.rating[weekNum-1]);   
     }
-    color c = color(255/i*0.05, 255/i, 255/i*2);
+    color c = color(255/i, 255, 255);
     thisCandidate.render(c);
   } 
   
