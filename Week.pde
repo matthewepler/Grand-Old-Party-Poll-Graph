@@ -1,7 +1,8 @@
 class Week{
   
  int weekNum;
- String[] weekData; 
+ String[] weekData;
  int offset;
- HashMap<String, Week> candidateAllWeeksHash = new HashMap(); 
+ HashMap<String, Week> candidateAllWeeksHash = new HashMap();
+
 }
