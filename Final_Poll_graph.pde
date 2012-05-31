@@ -15,8 +15,8 @@ void setup(){
   pollDates = loadStrings("poll_dates.txt");
   
   String[] names = split(allData[0], ",");
-  for(int i = 7; i > 0; i--){
-    float segment = width/8;
+  for(int i = 8; i > 0; i--){
+    float segment = width/9;
     Candidate thisCandidate = new Candidate();
     thisCandidate.name = names[i];
     thisCandidate.candNum = i;
